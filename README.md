@@ -78,7 +78,7 @@
   <img src="https://github.com/kddongkyu/Devster-final/assets/124576045/3b604e91-82c1-4281-907a-e576fb10bdd4" align="center" width="48%">
   </div>
 <br/>
-    <b>Recux</b> <br/>
+    <b>Redux</b> <br/>
   <img src="https://github.com/kddongkyu/Devster-final/assets/124576045/6c0c838c-e715-4909-b935-9395a9e74a1e" align="center" width="48%">
   <img src="https://github.com/kddongkyu/Devster-final/assets/124576045/f2da4e05-1ac0-4e5f-9a15-f986f0729056" align="center" width="48%">
   </div>
