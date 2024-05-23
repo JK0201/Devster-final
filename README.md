@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213E,10:0F3460,30:533483,75:5B2A86,100:E94560&height=100&section=header&text=&fontSize=0" width="100%"/>
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=500&pause=10000&color=58A6FF&center=true&random=false&width=435&lines=Devster v2.0.0" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=500&pause=10000&color=58A6FF&center=true&random=false&width=435&lines=Devster v2.0" alt="Typing SVG" />
   </a>
   <p>[ 2023.06.30 - 2023.08.06 ]</p>
   <p>인원 : 6명</p>
@@ -10,7 +10,7 @@
 </div>
 
 ## Overview
-- Devster는 프로그래밍 교육기관 학생과 주니어 개발자를 위한 커뮤니티로, 상호간의 네트워킹과 취업 준비를 지원하는 플랫폼입니다. 사용자들은 교육 및 취업 관련 경험과 정보를 교류하고, 경력 개발에 필요한 자원을 공유할 수 있습니다. 이러한 활동을 통해 사용자들의 성장을 촉진하며, 실질적인 취업 기회로 이어질 수 있는 네트워크를 구축하는 것을 목표로 합니다.
+- Devster v2.0은 
 <br>
 
 ## 주요 기술
