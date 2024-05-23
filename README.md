@@ -43,6 +43,7 @@
       <li>사용자 입력 정보에 대한 실시간 필드 유효성 검사 기능 구현</li>
       <li>비밀번호 강도 체크 기능 구현 ("중" 이상 가입 가능)</li>
       <li>이메일, 핸드폰인증 기존코드 개선</li>
+      <li>OAuth2.0 인증방식을 사용하여 카카오, 네이버 로그인 기능 구현 및 백엔드와 연동</li>
       <li>Axios Interceptor를 활용하여 사용자 request시 JWT 토큰 처리를 통한 보안 강화</li>
       <li>Access token 만료시 Refresh token 재발급 및 Local storage에 저장</li>
     </ul>
@@ -51,18 +52,25 @@
   <details>
     <summary><b>프론트엔드 기능 추가</b></summary>
     <ul>
+      <li>Redux를 설정 및 Store를 활용하여 전역 상태 관리</li>
       <li>React-cropper API를 활용하여 회원 사진 크기를 일정하게 만들기 위한 Resize & Crop 기능 구현</li>
-      <li>에러 핸들링을 위한 전용 API를 만들고 Toast UI를 적용하여 사용자에게 피드백 제공</li>
     </ul>
   </details>
 
   <details>
-    <summary><b>프론트엔드 기능 추가</b></summary>
+    <summary><b>실시간 채팅 기능 추가</b></summary>
     <ul>
-      <li>React-cropper API를 활용하여 회원 사진 크기를 일정하게 만들기 위한 Resize & Crop 기능 구현</li>
-      <li>에러 핸들링을 위한 전용 API를 만들고 Toast UI를 적용하여 사용자에게 피드백 제공</li>
+      <li>WebSocket과 StompJS를 사용하여 실시간 채팅 기능 백엔드 및 프론트엔드 구현</li>
     </ul>
-  </details>  
+  </details> 
+
+  <details>
+    <summary><b>각종 프론트엔드 API 구현</b></summary>
+    <ul>
+      <li>에러 핸들러 API를 만들고 Toast UI를 활용해 사용자에게 피드백 제공</li>
+      <li>회원/비회원, 등급별 페이지 엑세스 권한 API를 만들어 페이지별 적용</li>
+    </ul>
+  </details> 
   <br>
 
 ## 문제점 및 개선안
