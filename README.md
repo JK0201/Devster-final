@@ -18,7 +18,7 @@
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
   <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" />
   <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" />
-  <img src="https://img.shields.io/badge/jpa-222222.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/jpa-222222.svg?style=for-the-badge&logo=spring&logoColor=white" />
   <img src="https://img.shields.io/badge/naver cloud platform-%2303C75A.svg?&style=for-the-badge&logo=naver&logoColor=white" />
 </div>
 <br>
