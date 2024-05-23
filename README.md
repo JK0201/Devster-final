@@ -1,3 +1,99 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213E,10:0F3460,30:533483,75:5B2A86,100:E94560&height=100&section=header&text=&fontSize=0" width="100%"/>
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=500&pause=10000&color=58A6FF&center=true&random=false&width=435&lines=Devster v1.0.0" alt="Typing SVG" />
+  </a>
+  <p>[ 2023.05.02 - 2023.05.22 ]</p>
+  <p>인원 : 6명</p>
+  
+  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JK0201/Devster-semi)
+</div>
+
+## Overview
+- Devster는 프로그래밍 교육기관 학생과 주니어 개발자를 위한 커뮤니티로, 상호간의 네트워킹과 취업 준비를 지원하는 플랫폼입니다. 사용자들은 교육 및 취업 관련 경험과 정보를 교류하고, 경력 개발에 필요한 자원을 공유할 수 있습니다. 이러한 활동을 통해 사용자들의 성장을 촉진하며, 실질적인 취업 기회로 이어질 수 있는 네트워크를 구축하는 것을 목표로 합니다.
+<br>
+
+## 주요 기술
+<div style=display:flex>
+  <img src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/mybatis-222222.svg?style=for-the-badge&logo=twitter&logoColor=white" />
+  <img src="https://img.shields.io/badge/naver cloud platform-%2303C75A.svg?&style=for-the-badge&logo=naver&logoColor=white" />
+</div>
+<br>
+
+## 나의 역할
+  <details>
+    <summary><b>DB 설계 및 연동</b></summary>
+    <ul>
+      <li>MySQL 데이터베이스, 네이버 클라우드 초기 설정 및 연동</li>
+      <li>데이터베이스 스키마 설계</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary><b>회원가입/로그인/아이디 비밀번호 찾기</b></summary>
+    <ul>
+      <li>회원가입 UI/UX디자인 설계 및 구현</li>
+      <li>사용자 입력 정보에 대한 필드 유효성 검사 기능 구현</li>
+      <li>SHA256알고리즘 Salt를 사용하여 사용자 비밀번호 암호화 및 로그인 검증 기능 구현</li>
+      <li>이메일과 핸드폰 인증을 통해 아이디 비밀번호 찾기 기능 구현</li>
+    </ul>
+  </details>
+  
+  <details>
+    <summary><b>사용자 인증</b></summary>
+    <ul>
+      <li>JavaScript와 OAuth2.0 인증방식을 사용하여 카카오, 네이버 로그인 기능 구현</li>
+      <li>Java Mail Sender 라이브러리를 사용하여 이메일 인증 및 검증 기능 구현</li>
+      <li>CoolSms API를 사용하여 핸드폰 인증 및 검증 기능 구현</li>
+      <li>공공데이터 사업자등록정보 API를 사용하여 기업회원 사업자등록증 인증 및 검증 기능 구현</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary><b>파일 업로드</b></summary>
+    <ul>
+      <li>사용자 경험 증진을 위한 Drag&Drop및 미리보기 기능 구현</li>
+      <li>파일 크기, 사이즈, 개수, 이미지 확장자 유효성 검사 기능 구현</li>
+      <li>파일 업로드시 네이버 클라우드 버킷 저장 기능 구현</li>
+    </ul>
+  </details>  
+  <br>
+
+## 문제점 및 개선안
+  <details>
+    <summary><b>문제점</b></summary>
+    <ul>
+      <li>컨트롤러에 모든 기능이 집중되어 있어 코드 유지보수 및 재사용성이 떨어짐</li>
+      <li>유효성 검사를 프론트엔드에서만 수행하여 보안 취약점이 존재함</li>
+      <li>JavaScript코드가 모듈화 되지 않아 유지 보수 및 가독성이 떨어짐</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary><b>개선안</b></summary>
+    <ul>
+      <li>컨트롤러 기능 분리 : 서비스 레이어로 기능을 분리하여 코드 유지보수성을 높이고 재사용성을 향상</li>
+      <li>유효성 검사 추가 : 서버 측 유효성 검사 추가 및 HTTP status code를 적극 활용하여 에러핸들링 및 보안 강화</li>
+      <li>JavaScript 모듈화 : 코드를 모듈화하여 impotr/export를 활용하여 코드 유지보수성, 재사용성, 가독성을 향상</li>
+      <li>함수 분리 : 함수를 기능별로 분류하여 코드 유지보수성을 높이고 재사용성을 향상</li>
+    </ul>
+  </details>  
+<br>
+
+## Outro
+  <details>
+    <summary><b>느낀점</b></summary>
+    <ul>
+      <li>첫 팀 프로젝트를 진행하면서 협업의 중요성을 절실히 느꼈습니다. 프로젝트 초반에는 역할 분담과 커뮤니케이션이 어려웠지만, 점차 팀원들과의 소통이 원활해 지면서 효율적으로 업무를 진행할 수 있었습니다.</li>
+      <li>모듈화를 하지 않아 에러 발생 시 원인을 찾거나 팀원들에게 제가 작성한 코드를 설명하는 데 어려움을 겪는 경우가 많았습니다. 이로 인해 개발 시간이 증가하고 최종 결과물의 퀄리티도 떨어지는 느낌을 강하게 받았습니다. 이를 통해 기능 분리와 레이어 분리의 중요성을 깨달았으며, 앞으로는 이러한 원칙을 준수하여 개발 시간을 단축하고 효율성을 높이는 데 주력하겠습니다.</li>
+    </ul>
+  </details>
+<br>
+
+
 ## 💜 Devster 
 
 ![4기 썸네일](https://github.com/kddongkyu/Devster-final/assets/124576045/1fc38e7e-6747-4b76-9aca-ea30c5dca085)
@@ -255,6 +351,5 @@
 <img src="https://img.shields.io/badge/naver-%2303C75A.svg?&style=for-the-badge&logo=naver&logoColor=white" />
 ​
 </div>
-
-
-
+<br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:16213E,10:0F3460,30:533483,75:5B2A86,100:E94560&height=40&section=footer&text=&fontSize=0" width="100%"/>
