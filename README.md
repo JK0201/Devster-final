@@ -73,23 +73,25 @@
   </details> 
   <br>
 
-## 문제점 및 개선안
+## 문제점 및 개선점
   <details>
-    <summary><b>문제점</b></summary>
+    <summary><b>문제점 (Version 1.0)</b></summary>
     <ul>
       <li>컨트롤러에 모든 기능이 집중되어 있어 코드 유지보수 및 재사용성이 떨어짐</li>
       <li>유효성 검사를 프론트엔드에서만 수행하여 보안 취약점이 존재함</li>
       <li>JavaScript코드가 모듈화 되지 않아 유지 보수 및 가독성이 떨어짐</li>
+      <li>기존 SSR(Server-Side Rendering) 방식의 v1.0은 페이지 전환이 매끄럽지 않아 사용자 경험을 제한함</li>
+      <li>전역 변수를 체계적으로 관리하지 못해 상태 관리의 일관성이 떨어짐</li>
     </ul>
   </details>
 
   <details>
-    <summary><b>개선안</b></summary>
+    <summary><b>개선점 (Version 2.0)</b></summary>
     <ul>
-      <li>컨트롤러 기능 분리 : 서비스 레이어로 기능을 분리하여 코드 유지보수성을 높이고 재사용성을 향상</li>
-      <li>유효성 검사 추가 : 서버 측 유효성 검사 추가 및 HTTP status code를 적극 활용하여 에러핸들링 및 보안 강화</li>
-      <li>JavaScript 모듈화 : 코드를 모듈화하여 impotr/export를 활용하여 코드 유지보수성, 재사용성, 가독성을 향상</li>
-      <li>함수 분리 : 함수를 기능별로 분류하여 코드 유지보수성을 높이고 재사용성을 향상</li>
+      <li>서비스 레이어로 기능을 분리하고 컨트롤러 본연의 역할을 할 수 있도록 분리하여 코드의 유지보수성을 높이고 재사용성을 향상 시킴</li>
+      <li>서버 측 유효성 검사를 추가하여 보안 강화</li>
+      <li>CSR(Client-Side Rendering) 방식인 React를 사용하여 SPA(Single Page Application) 방식을 통해 페이지 전환을 매끄럽게 하여 사용자 경험을 향상 </li>
+      <li>Redux를 도입하여 전역 변수를 효율적으로 관리하고 상태 관리의 일관성을 높임</li>
     </ul>
   </details>  
 <br>
