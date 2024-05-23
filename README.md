@@ -10,14 +10,14 @@
 </div>
 
 ## Overview
-- Devster v2.0은 
+- Devster v2.0은 Devster v1.0의 문제점을 개선하고 새로운 기능을 추가한 프로젝트입니다. 주요 목표는 성능 향상, 보안 강화, 사용자 경험 개선, 그리고 코드의 유지보수성을 높이는 것입니다. 이를 위해 프론트엔드와 백엔드를 리팩터링하고, 다양한 최신 기술을 도입하여 개발되었습니다.
 <br>
 
 ## 주요 기술
 <div style=display:flex>
-  <img src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+  <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" />
   <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" />
-  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/mybatis-222222.svg?style=for-the-badge&logo=twitter&logoColor=white" />
   <img src="https://img.shields.io/badge/naver cloud platform-%2303C75A.svg?&style=for-the-badge&logo=naver&logoColor=white" />
 </div>
